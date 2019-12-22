@@ -1,0 +1,114 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #161616;
+  background-image: url("/images/solklintsskolan-treIEn.png");
+  background-size: 100%, auto;
+}
+
+h1 {
+  font-size: 3vh;
+}
+
+h2 {
+  font-size: 2vh;
+}
+
+
+.content {
+  width: 95%;
+  min-height: 70vh;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.content .table-top {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin: 10px 0px 40px;
+  background-color: rgba(200, 200, 200, 0.6);
+  border-radius: 4px;
+}
+
+.content .table-top h1 {
+  margin: 20px 0px 0px 0px;
+  font-size: 3vh;
+}
+
+.content .table-top hr {
+  margin: 0px;
+  padding: 0px;
+}
+
+.content .table {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin: 10px 0px;
+  padding: 10px 0px 60px 0px;
+  background-color: rgba(200, 200, 200, 0.6);
+  border-radius: 4px;
+}
+
+.content .table .buttons {
+  width: auto;
+  margin: 0px auto;
+}
+
+.content .table .buttons form {
+  display: inline-block;
+}
+
+.content .table .button {
+  font-size: 150%;
+  padding: 0.5em;
+  margin: 30px auto 0px;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: border-color 0.3s, background-color 0.2s, color 0.2s;
+}
+
+.content .table #cancel-button {
+  background-color: #f44336;
+}
+
+.content .table #confirm-button {
+  background-color: #4CAF50;
+}
+
+.content .table .button:hover {
+  border-color: rgba(50, 50, 50, 0.4);
+  background: rgba(150, 150, 150, 0.6);
+  color: rgba(0, 0, 0, 1);
+}
+
+
+
+.site-footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #161616;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer a {
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 1vh;
+  color: rgba(255,255,255,.5);
+}
+
+.site-footer #sweden-flag {
+  width: auto;
+  height: 20px;
+}
